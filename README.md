@@ -5,4 +5,4 @@ Supported become methos: **sudo**, **su**, **pbrun**, **pfexec**, **doas**, **dz
 
 Usage: $ ssh-man hostname
 
-When hostname is a same hostname from Ansible inventory file
+When hostname is a same hostname inside Ansible inventory file
