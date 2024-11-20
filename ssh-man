@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HOST="$1"
-INVENTORY="/home/sovchinnikov/working/ansible/kilton.tech/hosts"
+INVENTORY="<PATH-TO-ANSIBLE-INVENTORY-FILE>"
 
 preflight_check() {
 
