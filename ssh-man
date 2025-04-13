@@ -16,15 +16,6 @@ preflight_check() {
 	fi
 }
 
-show_tui() {
-
-	# for feature version
-        if [ -z "$HOST" ]; then
-		# show TUI
-		# as result - need set HOST and run to next
-        fi
-}
-
 prerun_check() {
 
 	STRING=`grep ^$HOST $INVENTORY`
@@ -266,7 +257,6 @@ login() {
 }
 
 preflight_check
-#show_tui
 prerun_check
 populate_vars
 login
